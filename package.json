@@ -1,6 +1,6 @@
 {
   "name": "icon-tree",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Graphically displays the directory and file structure of a path with icons",
   "main": "bin/index.js",
   "bin": {
@@ -14,6 +14,14 @@
   "repository": "https://github.com/zitrocode/itree.git",
   "author": "Oscar Oritz <dev.oscarortiz@gmail.com>",
   "license": "MIT",
+  "keywords": [
+    "cli",
+    "tree",
+    "itree",
+    "command",
+    "icon-tree",
+    "tree-command"
+  ],
   "private": false,
   "dependencies": {
     "bytes": "^3.1.2",
