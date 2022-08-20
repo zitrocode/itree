@@ -1,5 +1,5 @@
 {
-  "name": "itree",
+  "name": "icon-tree",
   "version": "1.0.0",
   "description": "Graphically displays the directory and file structure of a path with icons",
   "main": "bin/index.js",
