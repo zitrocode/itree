@@ -4,7 +4,7 @@ import { folder_structure } from './folder_structure';
 import { file_structure } from './file_structure';
 import { File, Folder } from '../interfaces';
 
-const ignore_folders_enviroment = ['.git', 'node_modules', 'venv', 'env'];
+const ignore_folders_enviroment = ['.git', 'node_modules', 'venv', 'env', '.expo', '.expo-shared'];
 
 const get_folder_data = (base_path: string, folderContents: boolean) => {
   const data: (Folder | File)[] = [];

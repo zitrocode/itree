@@ -3,7 +3,7 @@ import { Folder, ItemCustom } from '../interfaces';
 const get_custom_folder: ItemCustom[] = [
   { name: '.git', icon: ' ', color: 'orange' },
   { name: '.github', icon: ' ', color: 'white' },
-  { name: '.vscode', icon: ' ', color: 'cyan' },
+  { name: '.vscode', icon: ' ', color: 'cyan' },
   { name: 'node_modules', icon: ' ', color: 'green' },
   { name: 'images', icon: ' ', color: 'cyan' },
   { name: 'img', icon: ' ', color: 'cyan' }

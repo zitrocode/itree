@@ -4,6 +4,8 @@ import { Folder, ItemCustom } from '../interfaces';
 const get_custom_file: ItemCustom[] = [
   { name: 'package.json', icon: ' ', color: 'green' },
   { name: 'package-lock.json', icon: ' ', color: 'green' },
+  { name: '.gitignore', icon: ' ', color: 'orange' },
+  { name: 'LICENSE', icon: ' ', color: 'red' },
 
   { name: '.json', icon: ' ', color: 'yellow' },
   { name: '.html', icon: ' ', color: 'orange' },
@@ -18,7 +20,28 @@ const get_custom_file: ItemCustom[] = [
   { name: '.mts', icon: ' ', color: 'blue' },
   { name: '.tsx', icon: ' ', color: 'blue' },
   { name: '.lock', icon: ' ', color: 'white' },
-  { name: '.config', icon: ' ', color: 'white' }
+  { name: '.config', icon: ' ', color: 'white' },
+
+  // For lua
+  { name: '.lua', icon: ' ', color: 'blue' },
+
+  // For vim
+  { name: '.vim', icon: ' ', color: 'green' },
+
+  // For python
+  { name: '.py', icon: ' ', color: 'magenta' },
+
+  // For markdown
+  { name: '.md', icon: ' ', color: 'cyan' },
+
+  // For images 
+  { name: '.jpeg', icon: ' ', color: 'cyan' },
+  { name: '.jpg', icon: ' ', color: 'cyan' },
+  { name: '.png', icon: ' ', color: 'cyan' },
+  { name: '.gif', icon: ' ', color: 'cyan' },
+
+  // For vector
+  { name: '.svg', icon: 'ﰟ ', color: 'yellow' }
 ];
 
 const custom_default_file: ItemCustom = {
