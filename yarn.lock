@@ -648,7 +648,7 @@
 
 "@types/bytes@^3.1.1":
   version "3.1.1"
-  resolved "https://registry.yarnpkg.com/@types/bytes/-/bytes-3.1.1.tgz#67a876422e660dc4c10a27f3e5bcfbd5455f01d0"
+  resolved "https://registry.npmjs.org/@types/bytes/-/bytes-3.1.1.tgz"
   integrity sha512-lOGyCnw+2JVPKU3wIV0srU0NyALwTBJlVSx5DfMQOFuuohA8y9S8orImpuIQikZ0uIQ8gehrRjxgQC1rLRi11w==
 
 "@types/graceful-fs@^4.1.3":
