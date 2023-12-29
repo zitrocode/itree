@@ -2,14 +2,14 @@ import { ItemCustom } from '../interfaces';
 
 const custom_files: ItemCustom[] = [
   // Specific files
-  { name: 'package.json', icon: ' ', color: 'green' },
-  { name: 'package-lock.json', icon: ' ', color: 'green' },
-  { name: '.git', icon: ' ', color: 'orange' },
-  { name: 'LICENSE', icon: ' ', color: 'red' },
+  { name: 'package.json', icon: '󰎙 ', color: 'green' },
+  { name: 'package-lock.json', icon: '󰎙 ', color: 'green' },
+  { name: '.git', icon: '󰊢 ', color: 'orange' },
+  { name: 'LICENSE', icon: '󰌆 ', color: 'red' },
   { name: '.config', icon: ' ', color: 'white' },
   { name: '.ini', icon: ' ', color: 'white' },
   { name: '.lock', icon: ' ', color: 'white' },
-  { name: 'README.md', icon: ' ', color: 'cyan' },
+  { name: 'README.md', icon: ' ', color: 'cyan' },
 
   { name: 'eslint', icon: ' ', color: 'magenta' },
   { name: 'prettier', icon: ' ', color: 'magenta' },
@@ -32,25 +32,25 @@ const custom_files: ItemCustom[] = [
   { name: '.css', icon: ' ', color: 'cyan' }, // Css
   { name: '.scss', icon: ' ', color: 'pink' }, // Scss
   { name: '.less', icon: ' ', color: 'blue' }, // Less
-  { name: '.md', icon: ' ', color: 'white' }, // Markdown
+  { name: '.md', icon: ' ', color: 'white' }, // Markdown
 
   // Databases
   { name: '.sql', icon: ' ', color: 'yellow' }, // SQL
 
   // Images
-  { name: '.jpeg', icon: ' ', color: 'cyan' },
-  { name: '.jpg', icon: ' ', color: 'cyan' },
-  { name: '.png', icon: ' ', color: 'cyan' },
-  { name: '.gif', icon: ' ', color: 'cyan' },
-  { name: '.svg', icon: 'ﰟ ', color: 'yellow' },
+  { name: '.jpeg', icon: '󰈟 ', color: 'cyan' },
+  { name: '.jpg', icon: '󰈟 ', color: 'cyan' },
+  { name: '.png', icon: '󰈟 ', color: 'cyan' },
+  { name: '.gif', icon: '󰈟 ', color: 'cyan' },
+  { name: '.svg', icon: '󰜡 ', color: 'yellow' },
 
   // Video
-  { name: '.mp4', icon: ' ', color: 'yellow' },
-  { name: '.avi', icon: ' ', color: 'yellow' },
-  { name: '.mkv', icon: ' ', color: 'yellow' },
-  { name: '.flv', icon: ' ', color: 'yellow' },
-  { name: '.mov', icon: ' ', color: 'yellow' },
-  { name: '.wmv', icon: ' ', color: 'yellow' },
+  { name: '.mp4', icon: '󰈫 ', color: 'yellow' },
+  { name: '.avi', icon: '󰈫 ', color: 'yellow' },
+  { name: '.mkv', icon: '󰈫 ', color: 'yellow' },
+  { name: '.flv', icon: '󰈫 ', color: 'yellow' },
+  { name: '.mov', icon: '󰈫 ', color: 'yellow' },
+  { name: '.wmv', icon: '󰈫 ', color: 'yellow' },
 
   // Audio
   { name: '.mp3', icon: ' ', color: 'blue' },

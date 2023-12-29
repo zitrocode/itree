@@ -31,6 +31,6 @@ import { Options } from './interfaces';
     get_folder_data(base_path, options.folderContents)
   );
 
-  console.log(colors.green('  ' + base_path));
+  console.log(colors.green('󱂵  ' + base_path));
   print_data(data, data.length, options.weight);
 })();

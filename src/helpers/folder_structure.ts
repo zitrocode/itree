@@ -5,8 +5,12 @@ const get_custom_folder: ItemCustom[] = [
   { name: '.github', icon: ' ', color: 'white' },
   { name: '.vscode', icon: ' ', color: 'cyan' },
   { name: 'node_modules', icon: ' ', color: 'green' },
-  { name: 'images', icon: ' ', color: 'cyan' },
-  { name: 'img', icon: ' ', color: 'cyan' }
+  { name: 'images', icon: '󰉔 ', color: 'cyan' },
+  { name: 'image', icon: '󰉔 ', color: 'cyan' },
+  { name: 'img', icon: '󰉔 ', color: 'cyan' },
+  { name: 'videos', icon: '󱧺 ', color: 'cyan' },
+  { name: 'video', icon: '󱧺 ', color: 'cyan' },
+  { name: 'config', icon: '󱁿 ', color: 'blue' }
 ];
 
 const custom_default_folder: ItemCustom = {

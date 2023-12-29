@@ -9,7 +9,7 @@ export const print_data = (
 ) => {
   childrens.forEach((folder: Folder, index: number) => {
     const symbol: string = childrens_length !== index + 1 ? '├─' : '└─';
-    const separator: string = '│     '.repeat(indent) + `${symbol}───`;
+    const separator: string = '│    '.repeat(indent) + `${symbol}──`;
     const name: string = colors[folder.decoration.color](
       folder.decoration.icon,
       folder.name
