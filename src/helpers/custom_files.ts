@@ -2,19 +2,22 @@ import { ItemCustom } from '../interfaces';
 
 const custom_files: ItemCustom[] = [
   // Specific files
+  { name: 'tsconfig.json', icon: ' ', color: 'blue' },
   { name: 'package.json', icon: '󰎙 ', color: 'green' },
   { name: 'package-lock.json', icon: '󰎙 ', color: 'green' },
-  { name: '.git', icon: '󰊢 ', color: 'orange' },
+  { name: 'README.md', icon: ' ', color: 'cyan' },
   { name: 'LICENSE', icon: '󰌆 ', color: 'red' },
+
+  { name: '.git', icon: '󰊢 ', color: 'orange' },
   { name: '.config', icon: ' ', color: 'white' },
   { name: '.ini', icon: ' ', color: 'white' },
   { name: '.lock', icon: ' ', color: 'white' },
-  { name: 'README.md', icon: ' ', color: 'cyan' },
 
   { name: 'eslint', icon: ' ', color: 'magenta' },
   { name: 'prettier', icon: ' ', color: 'magenta' },
 
   // File extension
+  { name: '.json', icon: ' ', color: 'yellow' }, // Json
   { name: '.tsx', icon: ' ', color: 'blue' }, // TypeScript (React)
   { name: '.jsx', icon: ' ', color: 'cyan' }, // JavaScript (React)
   { name: '.mjs', icon: ' ', color: 'yellow' }, // Javascript (Module)
@@ -27,7 +30,6 @@ const custom_files: ItemCustom[] = [
   { name: '.jar', icon: ' ', color: 'red' }, // Java
   { name: '.php', icon: ' ', color: 'magenta' }, // Php
 
-  { name: '.json', icon: ' ', color: 'yellow' }, // Json
   { name: '.html', icon: ' ', color: 'orange' }, // Html
   { name: '.css', icon: ' ', color: 'cyan' }, // Css
   { name: '.scss', icon: ' ', color: 'pink' }, // Scss
